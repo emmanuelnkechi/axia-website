@@ -1,0 +1,140 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+/* navbar section starts  */
+nav {
+  height: 6rem;
+  padding-left: 7rem !important;
+  padding-right: 7rem !important;
+  position: relative;
+}
+
+.navbar-nav {
+  margin-bottom: 2rem !important;
+  height: 6rem;
+  align-items: center;
+}
+a#navbarDropdown.nav-link.dropdown-toggle {
+  font-size: 0.9rem;
+  font-weight: 500 !important;
+}
+.nav-item a {
+  color: #1c293b !important;
+  font-weight: 500 !important;
+  margin-left: 1.5rem;
+}
+a.nav-link {
+  font-size: 1rem;
+}
+/* navbar section starts  */
+
+.meet-the-team-section{
+padding-left: 7em !important;
+padding-right: 7rem !important;
+padding-bottom: 3rem;
+}
+.meet-the-team{
+    margin-top: 2.5rem;
+    font-size: 3rem;
+    font-weight: 200;
+}
+
+/* <!-- main section starts here --> */
+.main-section{
+    background: #F4F4F5;
+    padding: 7rem !important;
+  
+}
+
+/* first item section starts*/
+.first-item{
+    padding: 2rem 6rem;
+}
+.text-div{
+    color: #848D9C;
+}
+.line-through-div{
+    border-bottom:  1px solid #E5E5E5;
+    position: absolute;
+    bottom: 1.5rem;
+    padding-bottom: 1.7rem;
+}
+.dev-name{
+   font-size: 1.5rem;
+   font-weight: 600;
+   line-height: 2rem;
+   letter-spacing: 2px;
+   
+}
+.founder{
+   letter-spacing: 2px;
+   color: #848D9C;
+   font-size: 1.3rem;
+}
+/* first item section ends*/
+
+
+/* second item section starts*/
+.second-item{
+    margin-top: 6rem;
+}
+.grid-container{
+display: grid;
+grid-template-columns: auto auto;
+grid-gap: 3rem;
+}
+.line-through-div-two{
+    border-bottom:  1px solid #E5E5E5;
+     bottom: 1rem !important;
+     padding-bottom: 1rem !important;
+}
+.line-through-div-three{
+    border-bottom:  1px solid #E5E5E5;
+     bottom: 1rem !important;
+     padding-bottom: 1rem !important;
+}
+.dev-name-one{
+   font-size: 1.5rem;
+   font-weight: 600;
+   line-height: 2rem;
+   letter-spacing: 2px;
+   
+}
+.dev-name-two{
+   font-size: 1.5rem;
+   font-weight: 600;
+   line-height: 2rem;
+   letter-spacing: 2px;  
+}
+.second-row{
+    padding: 2rem 3rem;
+}
+.second-one{
+background-color: #fff;
+padding: 3rem; 
+}
+.second-two{
+background-color: #fff;
+padding: 3rem;
+}
+/* second item section ends*/
+
+
+/* <!-- main section endss here --> */
+
+/* axia footer section starts here  */
+footer{
+    background: #1C293B;
+    color: #fff;
+    padding: 2rem 7rem !important;
+   
+}
+hr{
+    background: #fff;
+    color: #fff;
+}
+.white-logo{
+    width: 8rem;
+    height: 8rem;
+}
+/* axia footer section starts here  */

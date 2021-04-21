@@ -1,0 +1,209 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+/* navbar section starts  */
+nav {
+  height: 6rem;
+  padding-left: 8rem !important;
+  padding-right: 8rem !important;
+  position: relative;
+}
+
+.navbar-nav {
+  margin-bottom: 2rem !important;
+  height: 6rem;
+  align-items: center;
+}
+a#navbarDropdown.nav-link.dropdown-toggle {
+  font-size: 0.9rem;
+  font-weight: 500 !important;
+}
+.nav-item a {
+  color: #1c293b !important;
+  font-weight: 500 !important;
+  margin-left: 1.5rem;
+}
+a.nav-link {
+  font-size: 1rem;
+}
+/* navbar section starts  */
+
+/* crypto section starts  */
+.crypto-section {
+  padding-left: 8rem !important;
+  padding-right: 8rem !important;
+}
+.crypto-div {
+  margin-top: 5rem !important;
+}
+.launch-div {
+  position: relative;
+}
+.computer-img-div {
+  position: absolute;
+  z-index: -1;
+  top: -9rem;
+  left: -20rem;
+}
+.crypto-heading {
+  font-size: 3rem;
+  font-weight: 200;
+  color: #1c293b;
+}
+.crypto-content {
+  color: #848d9c;
+  line-height: 2rem;
+}
+.btn-launch {
+  background-color: #f25e66 !important;
+  color: #fff !important;
+  border-radius: 70px !important;
+}
+/* crypto section starts  */
+
+/* crypto introduction starts here  */
+.crypto-intro {
+  background-image: url("./images/Frame.svg");
+  background-repeat: no-repeat;
+  padding-left: 8rem !important;
+  padding-right: 8rem !important;
+  margin-top: 12rem;
+  padding-bottom: 10rem;
+}
+.crypto-heading {
+  color: #1c293b;
+}
+.row-content {
+  margin-top: 5rem;
+}
+.content-sub-heading {
+  border-top: 2px solid #848d9c !important;
+}
+.col-content {
+  color: #848d9c;
+  line-height: 2rem;
+}
+/* crypto introduction ends here  */
+
+/* manage portfolio ends here  */
+.manage-portfolio {
+  background: #f4f4f5;
+  padding-left: 8rem !important;
+  padding-right: 8rem !important;
+}
+.inner-div{
+  background-color:#1C293B ;
+  color: #fff;
+  border-radius: 30px;
+  position: relative;
+ height: 18rem;
+ top: -3rem;
+}
+.safe-img-div{
+    position: absolute;
+    top: -9rem;
+    left: 5rem;
+}
+.rest-content{
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.phone-img-div{
+     position: relative;
+     top: 14rem;
+}
+.manage-first-col{
+    margin-top: 20rem;
+}
+.manage-heading{
+   font-size: 3rem;
+  font-weight: 200;
+  color: #1c293b;
+}
+.manage-content{
+    margin-top: 3rem;
+    color: #848d9c;
+  line-height: 2rem;
+}
+/* manage portfolio ends here  */
+
+ /* instrument section starts here */
+ .instrument-bck{
+     background-image: url("./images/bck-instru.svg");
+     background-repeat: no-repeat;
+     background-position-x: right;
+     padding: 12rem 8rem!important;
+ }
+ .instru-heading{
+     font-size: 3rem;
+  font-weight: 200;
+  color: #1c293b;
+ }
+ .instru-row{
+     margin-top: 5rem;
+     margin-top: 3rem;
+    color: #848d9c;
+ }
+ /* instrument section ends here */
+
+
+/* axia news section starts here  */
+.news-section{
+    background: #D8F0F8;
+    padding: 5rem 8rem !important;
+  
+}
+.news-heading{
+    font-size: 3rem;
+  font-weight: 200;
+  color: #1c293b;
+}
+.cards-news{
+    background-color: #fff;
+}
+.web-heading{
+    color: #1C293B;
+    line-height: 2.5rem;
+}
+.date{
+font-size: 0.9rem;
+}
+.btn-news-section{
+     background: #D8F0F8; 
+    background-image: url("./images/Subtract.svg");
+    background-size: contain;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.meet-btn-div{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 9rem;
+}
+.btn-meet{
+   background-color: #f25e66 !important;
+  color: #fff !important;
+  border-radius: 70px !important;
+    padding: 1rem 9rem !important;
+   
+}
+/* axia news section ends here  */
+
+/* axia footer section starts here  */
+footer{
+    background: #1C293B;
+    color: #fff;
+    padding: 2rem 8rem !important;
+   
+}
+hr{
+    background: #fff;
+    color: #fff;
+}
+.white-logo{
+    width: 8rem;
+    height: 8rem;
+}
+/* axia footer section starts here  */
