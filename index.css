@@ -205,6 +205,9 @@ hr {
 /* axia footer section starts here  */
 
 @media only screen and (min-width: 321px) and (max-width: 768px) {
+li.nav-item a{
+    font-size: 0.6rem !important;
+}
   nav {
     height: 6rem;
     padding-left: 1rem !important;
