@@ -357,7 +357,7 @@ hr {
     position: relative !important;
     z-index: -1;
     top: 6rem;
-    left: -4rem;
+    left: 0rem;
   }
   .crypto-heading {
     text-align: center;
