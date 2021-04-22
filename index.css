@@ -156,9 +156,8 @@ a#navbarDropdown.nav-link.dropdown-toggle {
   color: #1c293b;
 }
 .instru-content {
-  font-weight: 200 !important;
-  line-height: 1.9rem;
-  font-size: 1.5vw;
+  font-weight: 300 !important;
+  line-height: 2.3rem;
 }
 
 .instru-row {
@@ -230,14 +229,13 @@ hr {
 /* axia footer section starts here  */
 
 @media only screen and (min-width: 321px) and (max-width: 768px) {
-.instru-content {
-  font-weight: 200 !important;
-  line-height: 1.4rem;
-  font-size: 4.5vw;
-}
-div.col-md-6.pr-5.axia-fund{
+  .instru-content {
+    font-weight: 300 !important;
+    line-height: 2.3rem;
+  }
+  div.col-md-6.pr-5.axia-fund {
     padding-right: 0px !important;
-}
+  }
   li.nav-item a {
     font-size: 0.8rem !important;
   }
@@ -391,21 +389,20 @@ div.col-md-6.pr-5.axia-fund{
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1024px) {
-.crypto-heading{
+  .crypto-heading {
     font-size: 1.8rem;
-}
-    .instru-content {
-  font-weight: 200 !important;
-  line-height: 1.4rem;
-  font-size: 2.5vw;
-}
-div.col-md-6.pr-5.axia-fund{
+  }
+  .instru-content {
+    font-weight: 300 !important;
+    line-height: 2.3rem;
+  }
+  div.col-md-6.pr-5.axia-fund {
     padding-right: 0px !important;
-}
-.computer-img{
+  }
+  .computer-img {
     width: 90% !important;
     height: 70% !important;
-}
+  }
   .computer-img-div {
     position: block !important;
     z-index: -1;
@@ -466,11 +463,10 @@ div.col-md-6.pr-5.axia-fund{
   }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
-    .instru-content {
-  font-weight: 200 !important;
-  line-height: 1.4rem;
-  font-size: 1.8vw;
-}
+  .instru-content {
+    font-weight: 300 !important;
+    line-height: 2.3rem;
+  }
   .computer-img-div {
     position: block !important;
     z-index: -1;
