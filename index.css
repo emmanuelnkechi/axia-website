@@ -36,20 +36,20 @@ a#navbarDropdown.nav-link.dropdown-toggle {
   padding-right: 1rem !important;
 }
 .crypto-div {
-  margin-top: 5rem !important;
+  margin-top: 4rem !important;
 }
 .launch-div {
   position: relative;
 }
 .computer-img {
   width: 90% !important;
-  height: 90% !important;
+  height: 100% !important;
 }
 .computer-img-div {
   position: absolute;
   z-index: -1;
   top: -9rem;
-  left: -15rem;
+  left: 0rem;
 }
 .crypto-heading {
   font-size: 2.4rem;
@@ -59,7 +59,7 @@ a#navbarDropdown.nav-link.dropdown-toggle {
 }
 .crypto-content {
   color: #848d9c;
-  line-height: 2rem;
+  line-height: 1.5rem;
   font-size: 1rem;
   font-weight: 300;
 }
@@ -68,7 +68,7 @@ a#navbarDropdown.nav-link.dropdown-toggle {
   color: #fff !important;
   font-size: 0.8rem !important;
   border-radius: 70px !important;
-  padding: 1rem 2.5rem !important;
+  padding: 0.9rem 2rem !important;
 }
 /* crypto section starts  */
 
@@ -78,7 +78,7 @@ a#navbarDropdown.nav-link.dropdown-toggle {
   background-repeat: no-repeat;
   padding-left: 8rem !important;
   padding-right: 8rem !important;
-  margin-top: 12rem;
+  margin-top: 7rem;
   padding-bottom: 10rem;
 }
 .crypto-heading {
@@ -157,6 +157,7 @@ a#navbarDropdown.nav-link.dropdown-toggle {
 }
 .instru-content {
   font-weight: 300 !important;
+  line-height: 1.9rem
 }
 
 .instru-row {
@@ -366,7 +367,6 @@ hr {
     height: 17rem;
     color: #fff !important;
     display: flex !important;
-
   }
   .nav-item {
     margin-top: 2rem;
