@@ -4,8 +4,8 @@ body {
 /* navbar section starts  */
 nav {
   height: 6rem;
-  padding-left: 7rem !important;
-  padding-right: 7rem !important;
+  padding-left: 8rem !important;
+  padding-right: 8rem !important;
   position: relative;
 }
 
@@ -15,22 +15,24 @@ nav {
   align-items: center;
 }
 a#navbarDropdown.nav-link.dropdown-toggle {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 500 !important;
+  font-weight: 600 !important;
+  color: #1c293b;
 }
 .nav-item a {
   color: #1c293b !important;
-  font-weight: 500 !important;
+  font-weight: 600 !important;
   margin-left: 1.5rem;
 }
-a.nav-link {
-  font-size: 1rem;
-}
+/* a.nav-link {
+  font-size: 0.8rem;
+} */
 /* navbar section starts  */
 
 .meet-the-team-section {
-  padding-left: 7em !important;
-  padding-right: 7rem !important;
+  padding-left: 8rem !important;
+  padding-right: 8rem !important;
   padding-bottom: 3rem;
 }
 .meet-the-team {
@@ -51,6 +53,8 @@ a.nav-link {
 }
 .text-div {
   color: #848d9c;
+  letter-spacing: 1px;
+  font-weight: 300;
 }
 .line-through-div {
   border-bottom: 1px solid #e5e5e5;
@@ -68,6 +72,7 @@ a.nav-link {
   letter-spacing: 2px;
   color: #848d9c;
   font-size: 1.3rem;
+  font-weight: 500 !important;
 }
 /* first item section ends*/
 
@@ -92,7 +97,7 @@ a.nav-link {
 }
 .dev-name-one {
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 600 !important;
   line-height: 2rem;
   letter-spacing: 2px;
 }
@@ -121,7 +126,11 @@ a.nav-link {
 footer {
   background: #1c293b;
   color: #fff;
-  padding: 2rem 7rem !important;
+  padding: 4rem 8rem !important;
+}
+.foot-item {
+  font-weight: 300 !important;
+  font-size: 0.8rem;
 }
 hr {
   background: #fff;
@@ -152,6 +161,9 @@ hr {
   .first-item {
     padding: 2rem 1rem;
   }
+  li.nav-item a {
+    font-size: 0.8rem !important;
+  }
   footer {
     background: #1c293b;
     color: #fff;
@@ -166,10 +178,20 @@ hr {
     flex-wrap: nowrap !important;
   }
   ul.navbar-nav.mr-auto {
-    display: flex !important;
-    flex-direction: row !important;
-    padding-bottom: 5rem;
-    justify-content: center;
+    background-color: rgb(44, 43, 43);
+    height: 17rem;
+    color: #fff !important;
+  }
+  .nav-item {
+    margin-top: 2rem;
+    float: left !important;
+    font-size: 5rem !important;
+    font-weight: 500 !important;
+  }
+  .nav-item a {
+    color: #fff !important;
+    font-size: 9rem !important;
+    font-weight: 500 !important;
   }
   .meet-the-team {
     text-align: center;
@@ -179,11 +201,11 @@ hr {
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .main-section {
     padding: 0rem 0rem 2rem 0rem !important;
-    
   }
   .first-item {
     padding-left: 2rem !important;
     padding-right: 2rem !important;
+    padding-top: 4rem;
   }
   nav {
     height: 6rem;
@@ -191,17 +213,17 @@ hr {
     padding-right: 2rem !important;
     position: relative;
   }
-  .grid-container{
-      margin-right: 1rem;
-      margin-left: 1rem;
+  .grid-container {
+    margin-right: 1rem;
+    margin-left: 1rem;
   }
-  .meet-the-team{
-      text-align: center;
+  .meet-the-team {
+    text-align: center;
   }
-  footer{
-      padding: 1rem 1rem !important;
+  footer {
+    padding: 1rem 1rem !important;
   }
-  .nav-item a{
-       font-size: 1.5rem !important;
-}
+  .nav-item a {
+    font-size: 1.5rem !important;
+  }
 }

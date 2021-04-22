@@ -1,5 +1,5 @@
 body {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Work Sans", sans-serif !important;
 }
 /* navbar section starts  */
 nav {
@@ -15,23 +15,25 @@ nav {
   align-items: center;
 }
 a#navbarDropdown.nav-link.dropdown-toggle {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 500 !important;
+  font-weight: 600 !important;
+  color: #1c293b;
 }
 .nav-item a {
   color: #1c293b !important;
-  font-weight: 500 !important;
+  font-weight: 600 !important;
   margin-left: 1.5rem;
 }
-a.nav-link {
-  font-size: 1rem;
-}
+/* a.nav-link {
+  font-size: 0.8rem;
+} */
 /* navbar section starts  */
 
 /* crypto section starts  */
 .crypto-section {
   padding-left: 8rem !important;
-  padding-right: 8rem !important;
+  padding-right: 1rem !important;
 }
 .crypto-div {
   margin-top: 5rem !important;
@@ -39,25 +41,34 @@ a.nav-link {
 .launch-div {
   position: relative;
 }
+.computer-img {
+  width: 90% !important;
+  height: 90% !important;
+}
 .computer-img-div {
   position: absolute;
   z-index: -1;
   top: -9rem;
-  left: -20rem;
+  left: -15rem;
 }
 .crypto-heading {
-  font-size: 3rem;
+  font-size: 2.4rem;
   font-weight: 200;
   color: #1c293b;
+  letter-spacing: 3px;
 }
 .crypto-content {
   color: #848d9c;
   line-height: 2rem;
+  font-size: 1rem;
+  font-weight: 300;
 }
 .btn-launch {
   background-color: #f25e66 !important;
   color: #fff !important;
+  font-size: 0.8rem !important;
   border-radius: 70px !important;
+  padding: 1rem 2.5rem !important;
 }
 /* crypto section starts  */
 
@@ -82,6 +93,7 @@ a.nav-link {
 .col-content {
   color: #848d9c;
   line-height: 2rem;
+  font-weight: 300;
 }
 /* crypto introduction ends here  */
 
@@ -90,6 +102,7 @@ a.nav-link {
   background: #f4f4f5;
   padding-left: 8rem !important;
   padding-right: 8rem !important;
+  height: 56rem;
 }
 .inner-div {
   background-color: #1c293b;
@@ -105,17 +118,17 @@ a.nav-link {
   left: 5rem;
 }
 .rest-content {
-  line-height: 2.5rem;
-  font-size: 1.5rem;
+  line-height: 2rem;
+  font-size: 1.2rem;
   font-weight: 100;
 }
 
 .phone-img-div {
   position: relative;
-  top: 14rem;
+  top: 3rem;
 }
 .manage-first-col {
-  margin-top: 20rem;
+  margin-top: 10rem;
 }
 .manage-heading {
   font-size: 3rem;
@@ -126,6 +139,7 @@ a.nav-link {
   margin-top: 3rem;
   color: #848d9c;
   line-height: 2rem;
+  font-weight: 300;
 }
 /* manage portfolio ends here  */
 
@@ -141,6 +155,10 @@ a.nav-link {
   font-weight: 200;
   color: #1c293b;
 }
+.instru-content {
+  font-weight: 300 !important;
+}
+
 .instru-row {
   margin-top: 5rem;
   margin-top: 3rem;
@@ -167,6 +185,7 @@ a.nav-link {
 }
 .date {
   font-size: 0.9rem;
+  font-weight: 300;
 }
 .btn-news-section {
   background: #d8f0f8;
@@ -184,7 +203,7 @@ a.nav-link {
   background-color: #f25e66 !important;
   color: #fff !important;
   border-radius: 70px !important;
-  padding: 1rem 9rem !important;
+  padding: 0.7rem 4rem !important;
 }
 /* axia news section ends here  */
 
@@ -192,7 +211,11 @@ a.nav-link {
 footer {
   background: #1c293b;
   color: #fff;
-  padding: 2rem 8rem !important;
+  padding: 4rem 8rem !important;
+}
+.foot-item {
+  font-weight: 300 !important;
+  font-size: 0.8rem;
 }
 hr {
   background: #fff;
@@ -205,9 +228,9 @@ hr {
 /* axia footer section starts here  */
 
 @media only screen and (min-width: 321px) and (max-width: 768px) {
-li.nav-item a{
-    font-size: 0.6rem !important;
-}
+  li.nav-item a {
+    font-size: 0.8rem !important;
+  }
   nav {
     height: 6rem;
     padding-left: 1rem !important;
@@ -262,19 +285,24 @@ li.nav-item a{
     padding-bottom: 1rem !important;
     border-radius: 0;
   }
+  .instru-heading {
+    margin-top: 6rem;
+    text-align: center;
+  }
   .safe-img {
     width: 18rem !important;
     height: 14rem !important;
   }
   .safe-img-div {
     position: absolute !important;
-    top: 5rem;
+    top: 0rem;
     left: 0rem;
   }
   .manage-heading {
     font-size: 2.5rem;
     font-weight: 200;
     text-align: center;
+    margin-top: 2.6rem;
   }
   .phone-img-div {
     position: relative;
@@ -325,36 +353,58 @@ li.nav-item a{
     height: 17rem !important;
   }
   .computer-img-div {
-  position: relative !important;
-  z-index: -1;
-  top: 6rem;
-  left: -4rem;
-}
-.crypto-heading{
+    position: relative !important;
+    z-index: -1;
+    top: 6rem;
+    left: -4rem;
+  }
+  .crypto-heading {
     text-align: center;
-}
-ul.navbar-nav.mr-auto{
+  }
+  ul.navbar-nav.mr-auto {
+    background-color: rgb(44, 43, 43);
+    height: 17rem;
+    color: #fff !important;
     display: flex !important;
-    flex-direction: row !important;
-    padding-bottom: 3rem;
-}
-  
+
+  }
+  .nav-item {
+    margin-top: 2rem;
+    float: left !important;
+    font-size: 5rem !important;
+    font-weight: 500 !important;
+  }
+  .nav-item a {
+    color: #fff !important;
+    font-size: 9rem !important;
+    font-weight: 500 !important;
+  }
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1024px) {
-.computer-img-div {
-  position: block !important;
-  z-index: -1;
-  top: 6rem;
-  left: 0rem !important;
-}
-ul.navbar-nav.mr-auto{
-    display: flex !important;
-    flex-direction: row !important;
-    padding-bottom: 3rem;
-    justify-content: center !important;
-}
-.safe-img {
+  .computer-img-div {
+    position: block !important;
+    z-index: -1;
+    top: 6rem;
+    left: 0rem !important;
+  }
+  ul.navbar-nav.mr-auto {
+    background-color: rgb(44, 43, 43);
+    height: 17rem;
+    color: #fff !important;
+  }
+  .nav-item {
+    margin-top: 2rem;
+    float: left !important;
+    font-size: 5rem !important;
+    font-weight: 500 !important;
+  }
+  .nav-item a {
+    color: #fff !important;
+    font-size: 9rem !important;
+    font-weight: 500 !important;
+  }
+  .safe-img {
     width: 16rem !important;
     height: 14rem !important;
   }
@@ -363,57 +413,58 @@ ul.navbar-nav.mr-auto{
     top: 5rem;
     left: 0rem;
   }
-  div.row.second-inner-div{
-padding-bottom: 2rem !important;
-justify-content: center !important;
-text-align: center !important;
-}
-.manage-first-col{
-      margin-top: 0 !important;
-      
+  div.row.second-inner-div {
+    padding-bottom: 2rem !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+  .manage-first-col {
+    margin-top: 0 !important;
   }
   div.col-md-6.d-flex.justify-content-end.white-logo-div {
     display: flex !important;
     justify-content: flex-end !important;
     margin-top: 1rem;
   }
-  .cards-news{
-height: 14rem;
+  .cards-news {
+    height: 14rem;
   }
-  .card-news-one{
-margin-top: 0 !important;
-height: 14rem;
+  .card-news-one {
+    margin-top: 0 !important;
+    height: 14rem;
   }
-  .card-news-two{
-margin-top: 0 !important;
-height: 14rem;
+  .card-news-two {
+    margin-top: 0 !important;
+    height: 14rem;
   }
-  .connect-div{
-      margin-top: 0 !important;
+  .connect-div {
+    margin-top: 0 !important;
   }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
-    .computer-img-div {
-  position: block !important;
-  z-index: -1;
-  top: 6rem;
-  left: 0rem !important;
-}
-.computer-img {
+  .computer-img-div {
+    position: block !important;
+    z-index: -1;
+    top: 6rem;
+    left: 0rem !important;
+  }
+  .computer-img {
     width: 20rem !important;
     height: 17rem !important;
   }
-  ul.navbar-nav.mr-auto{
+  ul.navbar-nav.mr-auto {
+    background-color: #fff;
     display: flex !important;
     flex-direction: row !important;
     padding-bottom: 3rem;
     padding-top: 5rem;
     justify-content: center !important;
-}
-.nav-item a{
-       font-size: 1.5rem !important;
-}
-div.row.px-4.py-5.inner-div {
+  }
+  .nav-item a {
+    color: #1c293b !important;
+    font-size: 1.5rem !important;
+  }
+  div.row.px-4.py-5.inner-div {
     padding-left: 1rem;
     padding-left: 1rem;
     padding-top: 2rem !important;
