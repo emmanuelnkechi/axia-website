@@ -8,7 +8,6 @@ nav {
   padding-right: 8rem !important;
   position: relative;
 }
-
 .navbar-nav {
   margin-bottom: 2rem !important;
   height: 6rem;
@@ -29,7 +28,6 @@ a#navbarDropdown.nav-link.dropdown-toggle {
   font-size: 0.8rem;
 } */
 /* navbar section starts  */
-
 /* crypto section starts  */
 .crypto-section {
   padding-left: 8rem !important;
@@ -71,7 +69,6 @@ a#navbarDropdown.nav-link.dropdown-toggle {
   padding: 0.9rem 2rem !important;
 }
 /* crypto section starts  */
-
 /* crypto introduction starts here  */
 .crypto-intro {
   background-image: url("./images/Frame.svg");
@@ -87,16 +84,21 @@ a#navbarDropdown.nav-link.dropdown-toggle {
 .row-content {
   margin-top: 5rem;
 }
+.protocol-img {
+  height: 5rem;
+  width: 5rem;
+}
 .content-sub-heading {
   border-top: 2px solid #848d9c !important;
+  font-size: 1.3rem;
 }
 .col-content {
   color: #848d9c;
-  line-height: 2rem;
+  line-height: 1.7rem;
   font-weight: 300;
+  font-size: 1rem;
 }
 /* crypto introduction ends here  */
-
 /* manage portfolio ends here  */
 .manage-portfolio {
   background: #f4f4f5;
@@ -122,7 +124,6 @@ a#navbarDropdown.nav-link.dropdown-toggle {
   font-size: 1.2rem;
   font-weight: 100;
 }
-
 .phone-img-div {
   position: relative;
   top: 3rem;
@@ -142,7 +143,6 @@ a#navbarDropdown.nav-link.dropdown-toggle {
   font-weight: 300;
 }
 /* manage portfolio ends here  */
-
 /* instrument section starts here */
 .instrument-bck {
   background-image: url("./images/bck-instru.svg");
@@ -159,14 +159,12 @@ a#navbarDropdown.nav-link.dropdown-toggle {
   font-weight: 300 !important;
   line-height: 2.3rem;
 }
-
 .instru-row {
   margin-top: 5rem;
   margin-top: 3rem;
   color: #848d9c;
 }
 /* instrument section ends here */
-
 /* axia news section starts here  */
 .news-section {
   background: #d8f0f8;
@@ -207,7 +205,6 @@ a#navbarDropdown.nav-link.dropdown-toggle {
   padding: 0.7rem 4rem !important;
 }
 /* axia news section ends here  */
-
 /* axia footer section starts here  */
 footer {
   background: #1c293b;
@@ -227,8 +224,12 @@ hr {
   height: 8rem;
 }
 /* axia footer section starts here  */
-
 @media only screen and (min-width: 321px) and (max-width: 768px) {
+  .row-content{
+    display: block !important;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
   .instru-content {
     font-weight: 300 !important;
     line-height: 2.3rem;
@@ -236,20 +237,45 @@ hr {
   div.col-md-6.pr-5.axia-fund {
     padding-right: 0px !important;
   }
+  .navbar-nav {
+    align-items: flex-start;
+  }
+  .axia-fund {
+    margin-bottom: 3rem;
+  }
+  .axia-fund h3 {
+    font-size: 1.5rem;
+  }
+  .stake-div h3 {
+    font-size: 1.5rem;
+  }
+  .news-heading {
+    font-size: 2rem;
+  }
+  .news-section h3 {
+    font-size: 1.5rem;
+  }
+  .protocol-img {
+    height: 6rem;
+  }
   li.nav-item a {
-    font-size: 0.8rem !important;
+    font-size: 0.84rem !important;
+    text-align: left;
   }
   nav {
     height: 6rem;
     padding-left: 1rem !important;
     padding-right: 1rem !important;
     position: relative;
+    z-index: 999999;
   }
   .crypto-section {
     padding-left: 1rem !important;
     padding-right: 1rem !important;
   }
-
+  .content-sub-heading {
+    font-size: 1.5rem;
+  }
   .crypto-intro {
     background-image: url("./images/Frame.svg");
     background-repeat: no-repeat;
@@ -296,6 +322,7 @@ hr {
   .instru-heading {
     margin-top: 6rem;
     text-align: center;
+    font-size: 2rem;
   }
   .safe-img {
     width: 18rem !important;
@@ -307,7 +334,7 @@ hr {
     left: 0rem;
   }
   .manage-heading {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 200;
     text-align: center;
     margin-top: 2.6rem;
@@ -342,7 +369,6 @@ hr {
   .btn-meet {
     padding: 1rem 3rem !important;
   }
-
   footer {
     background: #1c293b;
     color: #fff;
@@ -368,6 +394,7 @@ hr {
   }
   .crypto-heading {
     text-align: center;
+    font-size: 2rem;
   }
   ul.navbar-nav.mr-auto {
     background-color: rgb(44, 43, 43);
@@ -387,7 +414,6 @@ hr {
     font-weight: 500 !important;
   }
 }
-
 @media only screen and (min-width: 767px) and (max-width: 1024px) {
   .crypto-heading {
     font-size: 1.8rem;

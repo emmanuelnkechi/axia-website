@@ -8,7 +8,6 @@ nav {
   padding-right: 8rem !important;
   position: relative;
 }
-
 .navbar-nav {
   margin-bottom: 2rem !important;
   height: 6rem;
@@ -29,7 +28,6 @@ a#navbarDropdown.nav-link.dropdown-toggle {
   font-size: 0.8rem;
 } */
 /* navbar section starts  */
-
 .meet-the-team-section {
   padding-left: 8rem !important;
   padding-right: 8rem !important;
@@ -40,13 +38,11 @@ a#navbarDropdown.nav-link.dropdown-toggle {
   font-size: 3rem;
   font-weight: 200;
 }
-
 /* <!-- main section starts here --> */
 .main-section {
   background: #f4f4f5;
   padding: 7rem !important;
 }
-
 /* first item section starts*/
 .first-item {
   padding: 2rem 2rem;
@@ -75,7 +71,6 @@ a#navbarDropdown.nav-link.dropdown-toggle {
   font-weight: 500 !important;
 }
 /* first item section ends*/
-
 /* second item section starts*/
 .second-item {
   margin-top: 6rem;
@@ -119,9 +114,7 @@ a#navbarDropdown.nav-link.dropdown-toggle {
   padding: 3rem;
 }
 /* second item section ends*/
-
 /* <!-- main section endss here --> */
-
 /* axia footer section starts here  */
 footer {
   background: #1c293b;
@@ -141,13 +134,30 @@ hr {
   height: 8rem;
 }
 /* axia footer section starts here  */
-
 @media only screen and (min-width: 321px) and (max-width: 768px) {
   nav {
     height: 6rem;
     padding-left: 1rem !important;
     padding-right: 1rem !important;
     position: relative;
+    z-index: 999999;
+  }
+  .navbar-nav {
+    align-items: flex-start;
+  }
+  .meet-the-team {
+    font-size: 2.4rem;
+  }
+  .second-two, .second-one {
+    padding: 1.5rem;
+  }
+  .founder {
+    font-size: 1rem;
+  }
+  .dev-name-two,
+  .dev-name-one,
+  .dev-name {
+    font-size: 1.1rem;
   }
   .meet-the-team-section {
     padding-left: 1em !important;
@@ -197,7 +207,6 @@ hr {
     text-align: center;
   }
 }
-
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .main-section {
     padding: 0rem 0rem 2rem 0rem !important;
