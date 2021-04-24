@@ -19,7 +19,7 @@ a#navbarDropdown.nav-link.dropdown-toggle {
   font-weight: 600 !important;
   color: #1c293b;
 }
-.nav-item a {
+.nav-link{
   color: #1c293b !important;
   font-weight: 600 !important;
   margin-left: 1.5rem;
